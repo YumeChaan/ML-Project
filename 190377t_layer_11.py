@@ -87,7 +87,7 @@ def knn(x_train, y_train, x_valid, y_valid):
     y_pred = knn.predict(x_valid[label])
     print(label, metrics.accuracy_score(y_valid[label], y_pred))
 
-knn(x_train_pca, y_train_pca, x_valid_pca, y_valid_pca, x_test)
+knn(x_train_pca, y_train_pca, x_valid_pca, y_valid_pca)
 
 """SVM Classifier for all the Labels
 
